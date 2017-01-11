@@ -6,7 +6,6 @@
 //  Copyright © 2017 Henryk. All rights reserved.
 //
 
-#include <stdio.h>
 #include "SingletonClock.h"
 
 SingletonClock* SingletonClock::scInstance = NULL;
@@ -26,9 +25,9 @@ std::string SingletonClock::getTime(){
     char buffer[80];
     
     time (&rawtime);
-    timeinfo = localtime(&rawtime);
     
-    strftime(buffer,80,"%d-%m-%Y %I:%M:%S",timeinfo);
+    timeinfo = localtime(&rawtime);
+    strftime(buffer,80,"%I:%M:%S %p",timeinfo);
     std::string str(buffer);
     
     return str;
