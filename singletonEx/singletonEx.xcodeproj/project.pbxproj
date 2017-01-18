@@ -7,28 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD69DA0A1E2FC16B00C57F07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD69DA091E2FC16B00C57F07 /* main.cpp */; };
+		CDEE07791E2672DA009B23F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEE07781E2672DA009B23F3 /* main.cpp */; };
+		CDEE07821E2675A8009B23F3 /* SingletonClock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDEE07811E2675A8009B23F3 /* SingletonClock.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CD69DA401E2FC3EE00C57F07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CDEE07751E2672DA009B23F3;
-			remoteInfo = singletonEx;
-		};
-		CD69DA461E2FC3F300C57F07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CDEE07751E2672DA009B23F3;
-			remoteInfo = singletonEx;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		CD69DA041E2FC16B00C57F07 /* CopyFiles */ = {
+		CDEE07731E2672DA009B23F3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -40,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD69DA061E2FC16B00C57F07 /* Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playground; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD69DA091E2FC16B00C57F07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = singletonEx.xcodeproj; path = ../../singletonEx/singletonEx.xcodeproj; sourceTree = "<group>"; };
-		CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = singletonEx.xcodeproj; path = ../../singletonEx/singletonEx.xcodeproj; sourceTree = "<group>"; };
+		CDEE07751E2672DA009B23F3 /* singletonEx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = singletonEx; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEE07781E2672DA009B23F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDEE07801E26733E009B23F3 /* SingletonClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonClock.h; sourceTree = "<group>"; };
+		CDEE07811E2675A8009B23F3 /* SingletonClock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonClock.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD69DA031E2FC16B00C57F07 /* Frameworks */ = {
+		CDEE07721E2672DA009B23F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,140 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD69D9FD1E2FC16B00C57F07 = {
+		CDEE076C1E2672DA009B23F3 = {
 			isa = PBXGroup;
 			children = (
-				CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */,
-				CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */,
-				CD69DA081E2FC16B00C57F07 /* Playground */,
-				CD69DA071E2FC16B00C57F07 /* Products */,
+				CDEE07771E2672DA009B23F3 /* singletonEx */,
+				CDEE07761E2672DA009B23F3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD69DA071E2FC16B00C57F07 /* Products */ = {
+		CDEE07761E2672DA009B23F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD69DA061E2FC16B00C57F07 /* Playground */,
+				CDEE07751E2672DA009B23F3 /* singletonEx */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD69DA081E2FC16B00C57F07 /* Playground */ = {
+		CDEE07771E2672DA009B23F3 /* singletonEx */ = {
 			isa = PBXGroup;
 			children = (
-				CD69DA091E2FC16B00C57F07 /* main.cpp */,
+				CDEE07801E26733E009B23F3 /* SingletonClock.h */,
+				CDEE07811E2675A8009B23F3 /* SingletonClock.cpp */,
+				CDEE07781E2672DA009B23F3 /* main.cpp */,
 			);
-			path = Playground;
-			sourceTree = "<group>";
-		};
-		CD69DA3D1E2FC3EE00C57F07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD69DA411E2FC3EE00C57F07 /* singletonEx */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CD69DA431E2FC3F200C57F07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD69DA471E2FC3F300C57F07 /* singletonEx */,
-			);
-			name = Products;
+			path = singletonEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD69DA051E2FC16B00C57F07 /* Playground */ = {
+		CDEE07741E2672DA009B23F3 /* singletonEx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD69DA0D1E2FC16B00C57F07 /* Build configuration list for PBXNativeTarget "Playground" */;
+			buildConfigurationList = CDEE077C1E2672DA009B23F3 /* Build configuration list for PBXNativeTarget "singletonEx" */;
 			buildPhases = (
-				CD69DA021E2FC16B00C57F07 /* Sources */,
-				CD69DA031E2FC16B00C57F07 /* Frameworks */,
-				CD69DA041E2FC16B00C57F07 /* CopyFiles */,
+				CDEE07711E2672DA009B23F3 /* Sources */,
+				CDEE07721E2672DA009B23F3 /* Frameworks */,
+				CDEE07731E2672DA009B23F3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Playground;
-			productName = Playground;
-			productReference = CD69DA061E2FC16B00C57F07 /* Playground */;
+			name = singletonEx;
+			productName = singletonEx;
+			productReference = CDEE07751E2672DA009B23F3 /* singletonEx */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD69D9FE1E2FC16B00C57F07 /* Project object */ = {
+		CDEE076D1E2672DA009B23F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Henryk;
 				TargetAttributes = {
-					CD69DA051E2FC16B00C57F07 = {
+					CDEE07741E2672DA009B23F3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CD69DA011E2FC16B00C57F07 /* Build configuration list for PBXProject "Playground" */;
+			buildConfigurationList = CDEE07701E2672DA009B23F3 /* Build configuration list for PBXProject "singletonEx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CD69D9FD1E2FC16B00C57F07;
-			productRefGroup = CD69DA071E2FC16B00C57F07 /* Products */;
+			mainGroup = CDEE076C1E2672DA009B23F3;
+			productRefGroup = CDEE07761E2672DA009B23F3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CD69DA431E2FC3F200C57F07 /* Products */;
-					ProjectRef = CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */;
-				},
-				{
-					ProductGroup = CD69DA3D1E2FC3EE00C57F07 /* Products */;
-					ProjectRef = CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				CD69DA051E2FC16B00C57F07 /* Playground */,
+				CDEE07741E2672DA009B23F3 /* singletonEx */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CD69DA411E2FC3EE00C57F07 /* singletonEx */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = singletonEx;
-			remoteRef = CD69DA401E2FC3EE00C57F07 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CD69DA471E2FC3F300C57F07 /* singletonEx */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = singletonEx;
-			remoteRef = CD69DA461E2FC3F300C57F07 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CD69DA021E2FC16B00C57F07 /* Sources */ = {
+		CDEE07711E2672DA009B23F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD69DA0A1E2FC16B00C57F07 /* main.cpp in Sources */,
+				CDEE07821E2675A8009B23F3 /* SingletonClock.cpp in Sources */,
+				CDEE07791E2672DA009B23F3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CD69DA0B1E2FC16B00C57F07 /* Debug */ = {
+		CDEE077A1E2672DA009B23F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		CD69DA0C1E2FC16B00C57F07 /* Release */ = {
+		CDEE077B1E2672DA009B23F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,14 +219,14 @@
 			};
 			name = Release;
 		};
-		CD69DA0E1E2FC16B00C57F07 /* Debug */ = {
+		CDEE077D1E2672DA009B23F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CD69DA0F1E2FC16B00C57F07 /* Release */ = {
+		CDEE077E1E2672DA009B23F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,25 +236,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD69DA011E2FC16B00C57F07 /* Build configuration list for PBXProject "Playground" */ = {
+		CDEE07701E2672DA009B23F3 /* Build configuration list for PBXProject "singletonEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD69DA0B1E2FC16B00C57F07 /* Debug */,
-				CD69DA0C1E2FC16B00C57F07 /* Release */,
+				CDEE077A1E2672DA009B23F3 /* Debug */,
+				CDEE077B1E2672DA009B23F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD69DA0D1E2FC16B00C57F07 /* Build configuration list for PBXNativeTarget "Playground" */ = {
+		CDEE077C1E2672DA009B23F3 /* Build configuration list for PBXNativeTarget "singletonEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD69DA0E1E2FC16B00C57F07 /* Debug */,
-				CD69DA0F1E2FC16B00C57F07 /* Release */,
+				CDEE077D1E2672DA009B23F3 /* Debug */,
+				CDEE077E1E2672DA009B23F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD69D9FE1E2FC16B00C57F07 /* Project object */;
+	rootObject = CDEE076D1E2672DA009B23F3 /* Project object */;
 }

@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:FactoryMethod/FactoryMethod.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FactoryMethodProduct/FactoryMethodProduct.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:singletonEx/singletonEx.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Prototype/Prototype.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Playground/Playground.xcodeproj">
    </FileRef>
 </Workspace>
