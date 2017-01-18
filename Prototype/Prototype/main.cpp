@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include "Base.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    Base* a = new SubClass();
+    a->value = 5;
+    a->secondValue = new int(100);
+    
+    SubClass b = a->clone();
+    b.value = 10;
+    b.secondValue = new int(200);
+    
+    cout <<"a: " << *a->secondValue << endl;
+    cout <<"b: " << *b.secondValue << endl;
 }
