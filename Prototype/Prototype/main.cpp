@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Base.hpp"
+#include "ProtoTemplate.h"
 
 int main(int argc, const char * argv[]) {
     Base* a = new SubClass();
@@ -20,4 +21,15 @@ int main(int argc, const char * argv[]) {
     
     cout <<"a: " << *a->secondValue << endl;
     cout <<"b: " << *b.secondValue << endl;
+    
+    
+    //Prototype template
+    Villano v;
+    Princesa p;
+    Principe pri;
+    
+    Personaje* pe = v.clonar();
+    pe->correr();
+    
+    return 1;
 }

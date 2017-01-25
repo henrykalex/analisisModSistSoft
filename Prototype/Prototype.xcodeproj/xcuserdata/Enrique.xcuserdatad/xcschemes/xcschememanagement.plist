@@ -4,15 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Playground.xcscheme</key>
+		<key>Prototype.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CD69DA051E2FC16B00C57F07</key>
+		<key>CD69DA311E2FC3BC00C57F07</key>
 		<dict>
 			<key>primary</key>
 			<true/>

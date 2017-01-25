@@ -7,28 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD69DA0A1E2FC16B00C57F07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD69DA091E2FC16B00C57F07 /* main.cpp */; };
+		CDAC72F91E38ED7E0075BFE6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDAC72F81E38ED7E0075BFE6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CD69DA401E2FC3EE00C57F07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CDEE07751E2672DA009B23F3;
-			remoteInfo = singletonEx;
-		};
-		CD69DA461E2FC3F300C57F07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CDEE07751E2672DA009B23F3;
-			remoteInfo = singletonEx;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		CD69DA041E2FC16B00C57F07 /* CopyFiles */ = {
+		CDAC72F31E38ED7E0075BFE6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -40,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD69DA061E2FC16B00C57F07 /* Playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Playground; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD69DA091E2FC16B00C57F07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = singletonEx.xcodeproj; path = ../../singletonEx/singletonEx.xcodeproj; sourceTree = "<group>"; };
-		CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = singletonEx.xcodeproj; path = ../../singletonEx/singletonEx.xcodeproj; sourceTree = "<group>"; };
+		CDAC72F51E38ED7E0075BFE6 /* Constructors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Constructors; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC72F81E38ED7E0075BFE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD69DA031E2FC16B00C57F07 /* Frameworks */ = {
+		CDAC72F21E38ED7E0075BFE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,140 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD69D9FD1E2FC16B00C57F07 = {
+		CDAC72EC1E38ED7E0075BFE6 = {
 			isa = PBXGroup;
 			children = (
-				CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */,
-				CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */,
-				CD69DA081E2FC16B00C57F07 /* Playground */,
-				CD69DA071E2FC16B00C57F07 /* Products */,
+				CDAC72F71E38ED7E0075BFE6 /* Constructors */,
+				CDAC72F61E38ED7E0075BFE6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CD69DA071E2FC16B00C57F07 /* Products */ = {
+		CDAC72F61E38ED7E0075BFE6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD69DA061E2FC16B00C57F07 /* Playground */,
+				CDAC72F51E38ED7E0075BFE6 /* Constructors */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD69DA081E2FC16B00C57F07 /* Playground */ = {
+		CDAC72F71E38ED7E0075BFE6 /* Constructors */ = {
 			isa = PBXGroup;
 			children = (
-				CD69DA091E2FC16B00C57F07 /* main.cpp */,
+				CDAC72F81E38ED7E0075BFE6 /* main.cpp */,
 			);
-			path = Playground;
-			sourceTree = "<group>";
-		};
-		CD69DA3D1E2FC3EE00C57F07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD69DA411E2FC3EE00C57F07 /* singletonEx */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		CD69DA431E2FC3F200C57F07 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD69DA471E2FC3F300C57F07 /* singletonEx */,
-			);
-			name = Products;
+			path = Constructors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD69DA051E2FC16B00C57F07 /* Playground */ = {
+		CDAC72F41E38ED7E0075BFE6 /* Constructors */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD69DA0D1E2FC16B00C57F07 /* Build configuration list for PBXNativeTarget "Playground" */;
+			buildConfigurationList = CDAC72FC1E38ED7E0075BFE6 /* Build configuration list for PBXNativeTarget "Constructors" */;
 			buildPhases = (
-				CD69DA021E2FC16B00C57F07 /* Sources */,
-				CD69DA031E2FC16B00C57F07 /* Frameworks */,
-				CD69DA041E2FC16B00C57F07 /* CopyFiles */,
+				CDAC72F11E38ED7E0075BFE6 /* Sources */,
+				CDAC72F21E38ED7E0075BFE6 /* Frameworks */,
+				CDAC72F31E38ED7E0075BFE6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Playground;
-			productName = Playground;
-			productReference = CD69DA061E2FC16B00C57F07 /* Playground */;
+			name = Constructors;
+			productName = Constructors;
+			productReference = CDAC72F51E38ED7E0075BFE6 /* Constructors */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD69D9FE1E2FC16B00C57F07 /* Project object */ = {
+		CDAC72ED1E38ED7E0075BFE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Henryk;
 				TargetAttributes = {
-					CD69DA051E2FC16B00C57F07 = {
+					CDAC72F41E38ED7E0075BFE6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CD69DA011E2FC16B00C57F07 /* Build configuration list for PBXProject "Playground" */;
+			buildConfigurationList = CDAC72F01E38ED7E0075BFE6 /* Build configuration list for PBXProject "Constructors" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CD69D9FD1E2FC16B00C57F07;
-			productRefGroup = CD69DA071E2FC16B00C57F07 /* Products */;
+			mainGroup = CDAC72EC1E38ED7E0075BFE6;
+			productRefGroup = CDAC72F61E38ED7E0075BFE6 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CD69DA431E2FC3F200C57F07 /* Products */;
-					ProjectRef = CD69DA421E2FC3F200C57F07 /* singletonEx.xcodeproj */;
-				},
-				{
-					ProductGroup = CD69DA3D1E2FC3EE00C57F07 /* Products */;
-					ProjectRef = CD69DA3C1E2FC3EE00C57F07 /* singletonEx.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				CD69DA051E2FC16B00C57F07 /* Playground */,
+				CDAC72F41E38ED7E0075BFE6 /* Constructors */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		CD69DA411E2FC3EE00C57F07 /* singletonEx */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = singletonEx;
-			remoteRef = CD69DA401E2FC3EE00C57F07 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		CD69DA471E2FC3F300C57F07 /* singletonEx */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = singletonEx;
-			remoteRef = CD69DA461E2FC3F300C57F07 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CD69DA021E2FC16B00C57F07 /* Sources */ = {
+		CDAC72F11E38ED7E0075BFE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD69DA0A1E2FC16B00C57F07 /* main.cpp in Sources */,
+				CDAC72F91E38ED7E0075BFE6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CD69DA0B1E2FC16B00C57F07 /* Debug */ = {
+		CDAC72FA1E38ED7E0075BFE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +173,7 @@
 			};
 			name = Debug;
 		};
-		CD69DA0C1E2FC16B00C57F07 /* Release */ = {
+		CDAC72FB1E38ED7E0075BFE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -277,14 +213,14 @@
 			};
 			name = Release;
 		};
-		CD69DA0E1E2FC16B00C57F07 /* Debug */ = {
+		CDAC72FD1E38ED7E0075BFE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CD69DA0F1E2FC16B00C57F07 /* Release */ = {
+		CDAC72FE1E38ED7E0075BFE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -294,25 +230,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD69DA011E2FC16B00C57F07 /* Build configuration list for PBXProject "Playground" */ = {
+		CDAC72F01E38ED7E0075BFE6 /* Build configuration list for PBXProject "Constructors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD69DA0B1E2FC16B00C57F07 /* Debug */,
-				CD69DA0C1E2FC16B00C57F07 /* Release */,
+				CDAC72FA1E38ED7E0075BFE6 /* Debug */,
+				CDAC72FB1E38ED7E0075BFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD69DA0D1E2FC16B00C57F07 /* Build configuration list for PBXNativeTarget "Playground" */ = {
+		CDAC72FC1E38ED7E0075BFE6 /* Build configuration list for PBXNativeTarget "Constructors" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD69DA0E1E2FC16B00C57F07 /* Debug */,
-				CD69DA0F1E2FC16B00C57F07 /* Release */,
+				CDAC72FD1E38ED7E0075BFE6 /* Debug */,
+				CDAC72FE1E38ED7E0075BFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD69D9FE1E2FC16B00C57F07 /* Project object */;
+	rootObject = CDAC72ED1E38ED7E0075BFE6 /* Project object */;
 }

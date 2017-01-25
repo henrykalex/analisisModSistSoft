@@ -28,6 +28,7 @@
 		CD69DA351E2FC3BC00C57F07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CD69DA4D1E2FC75B00C57F07 /* Base.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Base.cpp; sourceTree = "<group>"; };
 		CD69DA4E1E2FC75B00C57F07 /* Base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Base.hpp; sourceTree = "<group>"; };
+		CDAC73001E38F9C40075BFE6 /* ProtoTemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoTemplate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				CD69DA351E2FC3BC00C57F07 /* main.cpp */,
 				CD69DA4D1E2FC75B00C57F07 /* Base.cpp */,
 				CD69DA4E1E2FC75B00C57F07 /* Base.hpp */,
+				CDAC73001E38F9C40075BFE6 /* ProtoTemplate.h */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -252,6 +254,7 @@
 				CD69DA3B1E2FC3BC00C57F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
