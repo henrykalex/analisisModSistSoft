@@ -1,27 +1,35 @@
 #include <iostream>
 using namespace std;
 
-template<class stT>
-class Singleton {
-public:
-    stT* Instance(){
-        
-    }
-};
-
 class Personaje
 {
+protected:
+    Personaje(){std::cout<<"Constructor SC\n";}
+    template<class stT>
+    static stT* scInstance;
 public:
     virtual void correr() = 0;
     virtual Personaje* clonar() = 0;
+    
+    
+    template<class stT>
+    static stT* Instance(){
+        if (!Personaje::scInstance<stT>){
+            stT inst;
+            Personaje::scInstance<stT> = &inst;
+        }
+        return Personaje::scInstance<stT>;
+    }
     template<class T>
     static T * factoryMethod(){
-        T* t = new T;
+        T* t = Personaje::Instance<T>();
         return t;
     }
     
 };
 
+template<class stT>
+stT* Personaje::scInstance = NULL;
 
 template <class SubClase>
 class ClonPersonaje : public Personaje
@@ -36,6 +44,7 @@ public:
 
 class Principe : public ClonPersonaje<Principe>
 {
+
 public:
     void seleccionarArma();
     void atacar();

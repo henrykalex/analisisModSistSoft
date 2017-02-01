@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDB404671E416E3000F05A80 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB404661E416E3000F05A80 /* main.cpp */; };
-		CDB404701E416E9100F05A80 /* PrototypeTemplates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB4046F1E416E9100F05A80 /* PrototypeTemplates.cpp */; };
+		CDB404701E416E9100F05A80 /* PrototypeTemplates.hpp in Sources */ = {isa = PBXBuildFile; fileRef = CDB4046F1E416E9100F05A80 /* PrototypeTemplates.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		CDB404631E416E3000F05A80 /* Entrega1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Entrega1; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB404661E416E3000F05A80 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CDB4046F1E416E9100F05A80 /* PrototypeTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrototypeTemplates.cpp; sourceTree = "<group>"; };
+		CDB4046F1E416E9100F05A80 /* PrototypeTemplates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PrototypeTemplates.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				CDB404661E416E3000F05A80 /* main.cpp */,
-				CDB4046F1E416E9100F05A80 /* PrototypeTemplates.cpp */,
+				CDB4046F1E416E9100F05A80 /* PrototypeTemplates.hpp */,
 			);
 			path = Entrega1;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB404701E416E9100F05A80 /* PrototypeTemplates.cpp in Sources */,
+				CDB404701E416E9100F05A80 /* PrototypeTemplates.hpp in Sources */,
 				CDB404671E416E3000F05A80 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +250,7 @@
 				CDB4046C1E416E3000F05A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
