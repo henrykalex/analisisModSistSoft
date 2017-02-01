@@ -19,6 +19,18 @@ public:
     Proxy(ArregloNPN& arr, int idx) : arr(arr), idx(idx){}
     Proxy& operator = (int value);
     friend std::ostream & operator << (std::ostream & stream, const Proxy && p);
+    bool isNNP(int n){
+        int sum = 1;
+        if(n < 6){
+            return false;
+        }
+        for (int i = 2; i <= n/2;i++){
+            if(n % i == 0){
+                sum += i;
+            }
+        }
+        return sum == n;
+    }
     
 };
 
@@ -54,9 +66,9 @@ public:
     friend std::ostream & operator << (std::ostream & stream, const Proxy && p);
 };
 
-Proxy& Proxy::operator = (int value)
+Proxy & Proxy::operator = (int value)
 {
-    if(value >= 0) //natural perfecto
+    if(isNNP(value)) //natural perfecto
     {
         arr.arreglo[idx] = value;
     }
@@ -68,7 +80,9 @@ Proxy& Proxy::operator = (int value)
 }
 
 std::ostream & operator << (std::ostream & stream, const Proxy && p){
-    stream << p.arr.arreglo[p.idx];
+    if(p.idx>= 0 && p.idx < p.arr.size){
+        stream << p.arr.arreglo[p.idx];
+    }
     return stream;
 }
 

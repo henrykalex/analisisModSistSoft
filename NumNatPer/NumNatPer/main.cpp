@@ -36,7 +36,9 @@ int main(int argc, const char * argv[]) {
     arr[5]= 2;
     arr[-1] = -1;
     arr[1] = 6;
-    std::cout << arr[1];
+    std::cout << arr[0]<<"\n";
+    std::cout << arr[1]<<"\n";
+    std::cout << arr[5]<<"\n";
     
     
     return 0;
