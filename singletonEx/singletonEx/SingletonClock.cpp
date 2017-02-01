@@ -13,7 +13,7 @@ SingletonClock* SingletonClock::scInstance = NULL;
 SingletonClock* SingletonClock::Instance()
 {
     /*if (!scInstance){
-        scInstance = new SingletonClock;
+        SingletonClock();
     }
     return scInstance;*/
     

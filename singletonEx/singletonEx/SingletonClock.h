@@ -12,7 +12,7 @@
 
 class SingletonClock{
 private:
-    SingletonClock(){std::cout<<"Constructor SC\n";}
+    SingletonClock(){scInstance = this;std::cout<<"Constructor SC\n";}
     static SingletonClock* scInstance;
 public:
     static SingletonClock* Instance();

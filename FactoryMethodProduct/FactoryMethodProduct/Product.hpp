@@ -28,6 +28,7 @@ public:
 };
 
 class Prod1 : public Product{
+public:
     void operacion1(){
         std::cout << "Estoy en operacion 1 Prod 1\n";
     }
@@ -37,6 +38,7 @@ class Prod1 : public Product{
 };
 
 class Prod2 : public Product{
+public:
     void operacion1(){
         std::cout << "Estoy en operacion 1 Prod 2\n";
     }

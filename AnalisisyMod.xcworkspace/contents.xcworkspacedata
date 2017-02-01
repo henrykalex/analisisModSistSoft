@@ -4,10 +4,9 @@
    <Group
       location = "container:"
       name = "Entregas">
-      <Group
-         location = "container:"
-         name = "Entrega1">
-      </Group>
+      <FileRef
+         location = "group:Entrega1/Entrega1.xcodeproj">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:Constructors/Constructors.xcodeproj">
