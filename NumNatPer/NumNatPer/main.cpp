@@ -11,7 +11,7 @@
 
 int main(int argc, const char * argv[]) {
     ArregloNPN array(5);
-    array[1] = 5;
-    std::cout<< array[1];
+    array[1] = 6;
+    std::cout<< &array[1];
     return 0;
 }

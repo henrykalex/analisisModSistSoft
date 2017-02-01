@@ -21,6 +21,8 @@ public:
     Dato & operator [] (int x) {
         if(x>= 0 && x < size){
             return arreglo[x];
+        }else{
+            return arreglo[0];
         }
     }
 };
