@@ -3,6 +3,13 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "NaturalesPerfectos">
+      <FileRef
+         location = "group:NumNatPer/NumNatPer.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "Entregas">
       <FileRef
          location = "group:Entrega1/Entrega1.xcodeproj">

@@ -4,7 +4,7 @@ using namespace std;
 class Personaje
 {
 protected:
-    Personaje(){std::cout<<"Constructor SC\n";}
+    Personaje(){  std::cout<<"Constructor SC\n";}
     template<class stT>
     static stT* scInstance;
 public:
