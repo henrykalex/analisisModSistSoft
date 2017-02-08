@@ -23,7 +23,7 @@ template <class SubClase>
 class ClonPersonaje : public Personaje
 {
 public:
-    virtual Personaje* clonar()// puede devolver una SubClase
+    virtual Personaje* clonar()
     {
         return new SubClase(dynamic_cast<SubClase&>(*this));
     }

@@ -12,7 +12,10 @@
       location = "container:"
       name = "Entregas">
       <FileRef
-         location = "group:Entrega1/Entrega1.xcodeproj">
+         location = "group:Entregas/Evaluacion1/Evaluacion1.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Entregas/Entrega1.xcodeproj">
       </FileRef>
    </Group>
    <FileRef
