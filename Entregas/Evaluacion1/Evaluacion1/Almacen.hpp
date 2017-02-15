@@ -15,20 +15,20 @@
 
 class Almacen
 {
-private:
     
+private:
     static Almacen* instance;
     
-    
+    std::vector<Videojuego *> * inventario;
     int tamañoMaximo;
     
     Almacen()
     {
         instance = this;
-        inventario = new std::vector<Videojuego * >();
+        //inventario = new std::vector<Videojuego * >();
     }
 public:
-    std::vector<Videojuego *> * inventario;
+    
     static Almacen* getInstance(int tamMax)
     {
         if(instance != 0)

@@ -32,6 +32,8 @@ public:
     virtual std::string getDatos() = 0;
     
     int getNumSerie(){return numSerie;}
+    std::string getNombre(){return nombre;}
+    float getCosto(){return costo;}
     
     virtual Videojuego* clonar() = 0;
     
@@ -75,13 +77,13 @@ public:
         rating = rt;
         costo = ct;
     }
-    void concepcion(){std::cout<<"Concepcion del videjojuego de: "+subTipo+"_"+nombre+"\n";}
-    void diseño(){std::cout<<"Diseño del videjojuego de: "+subTipo+"\n";}
-    void planificacion(){std::cout<<"Planificacion del videjojuego de: "+subTipo+"\n";}
-    void produccion(){std::cout<<"Produccion del videjojuego de: "+subTipo+"\n";}
-    void pruebasDeAceptacion(){std::cout<<"Pruebas del videjojuego de: "+subTipo+"\n";}
+    void concepcion(){std::cout<<"Concepcion >";}
+    void diseño(){std::cout<<"Diseño >";}
+    void planificacion(){std::cout<<"Planificacion >";}
+    void produccion(){std::cout<<"Produccion >";}
+    void pruebasDeAceptacion(){std::cout<<"Pruebas >\n";}
     
-    std::string getDatos(){return "St: "+subTipo+"\nNom: "+nombre+"\nNo.:"+std::to_string(numSerie)+"\nRt: "+rating+"\nCt:"+std::to_string(costo)+"\n";}
+    std::string getDatos(){return ": "+subTipo+" "+nombre+" "+std::to_string(numSerie)+" "+rating+" "+std::to_string(costo)+"\n";}
 };
 
 class Aventuras : public ClonVideojuego<Aventuras>
@@ -96,12 +98,12 @@ public:
         rating = rt;
         costo = ct;
     }
-    void concepcion(){std::cout<<"Concepcion del videjojuego de: "+subTipo+"\n";}
-    void diseño(){std::cout<<"Diseño del videjojuego de: "+subTipo+"\n";}
-    void planificacion(){std::cout<<"Planificacion del videjojuego de: "+subTipo+"\n";}
-    void produccion(){std::cout<<"Produccion del videjojuego de: "+subTipo+"\n";}
-    void pruebasDeAceptacion(){std::cout<<"Pruebas del videjojuego de: "+subTipo+"\n";}
-    std::string getDatos(){return "St: "+subTipo+"\nNom: "+nombre+"\nNo.:"+std::to_string(numSerie)+"\nRt: "+rating+"\nCt:"+std::to_string(costo)+"\n";}
+    void concepcion(){std::cout<<"Concepcion >";}
+    void diseño(){std::cout<<"Diseño >";}
+    void planificacion(){std::cout<<"Planificacion >";}
+    void produccion(){std::cout<<"Produccion >";}
+    void pruebasDeAceptacion(){std::cout<<"Pruebas >\n";}
+    std::string getDatos(){return ": "+subTipo+" "+nombre+" "+std::to_string(numSerie)+" "+rating+" "+std::to_string(costo)+"\n";}
 };
 
 class Aprendizaje : public ClonVideojuego<Aprendizaje>
@@ -116,12 +118,12 @@ public:
         rating = rt;
         costo = ct;
     }
-    void concepcion(){std::cout<<"Concepcion del videjojuego de: "+subTipo+"\n";}
-    void diseño(){std::cout<<"Diseño del videjojuego de: "+subTipo+"\n";}
-    void planificacion(){std::cout<<"Planificacion del videjojuego de: "+subTipo+"\n";}
-    void produccion(){std::cout<<"Produccion del videjojuego de: "+subTipo+"\n";}
-    void pruebasDeAceptacion(){std::cout<<"Pruebas del videjojuego de: "+subTipo+"\n";}
-    std::string getDatos(){return "St: "+subTipo+"\nNom: "+nombre+"\nNo.:"+std::to_string(numSerie)+"\nRt: "+rating+"\nCt:"+std::to_string(costo)+"\n";}
+    void concepcion(){std::cout<<"Concepcion >";}
+    void diseño(){std::cout<<"Diseño >";}
+    void planificacion(){std::cout<<"Planificacion >";}
+    void produccion(){std::cout<<"Produccion >";}
+    void pruebasDeAceptacion(){std::cout<<"Pruebas >\n";}
+    std::string getDatos(){return ": "+subTipo+" "+nombre+" "+std::to_string(numSerie)+" "+rating+" "+std::to_string(costo)+"\n";}
 };
 
 #endif /* Videojuego_hpp */

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <FileRef
+      location = "group:PruebasInerencia/PruebasInerencia.xcodeproj">
+   </FileRef>
    <Group
       location = "container:"
       name = "NaturalesPerfectos">
@@ -11,6 +14,9 @@
    <Group
       location = "container:"
       name = "Entregas">
+      <FileRef
+         location = "group:Evaluacion1Corr/Evaluacion1Corr.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:Entregas/Evaluacion1/Evaluacion1.xcodeproj">
       </FileRef>

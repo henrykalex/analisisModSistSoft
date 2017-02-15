@@ -10,6 +10,7 @@
 
 Almacen* Almacen::instance = 0;
 
+
 void Almacen::printInst(){
     std::cout << instance << std::endl;
 }
@@ -18,6 +19,8 @@ void Almacen::crearInventario(int tamMax){
     tamañoMaximo = tamMax;
     std::cout<<"creando";
     std::cout<<tamañoMaximo;
+    Videojuego* vid1 = Videojuego::factoryMethod<Estrategia>("Lucha","lol",56,"M",55.99);
+    inventario = new std::vector<Videojuego *>(tamMax,vid1);
 }
 
 void Almacen::agregaVideojuego(std::string tipo, std::string nom, int numSer,std::string rat, float cst, std::string sbTp){
@@ -35,5 +38,6 @@ void Almacen::agregaVideojuego(std::string tipo, std::string nom, int numSer,std
             }
         }
     }
-    std::cout<<"Agregando: ";
+    std::cout<<"Agregando: \n"<<tmp->getDatos();
+    //inventario->push_back(tmp);
 }
