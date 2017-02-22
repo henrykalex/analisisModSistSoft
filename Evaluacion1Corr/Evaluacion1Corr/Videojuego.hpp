@@ -19,6 +19,7 @@ protected:
     int numSerie = 0;
     std::string rating = "";
     float costo = 0.0f;
+    
     void incrementaNum(){
         numSerie++;
     }

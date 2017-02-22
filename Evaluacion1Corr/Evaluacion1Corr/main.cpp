@@ -21,6 +21,7 @@ void menu(){
     
     
     while(res != 's'){
+        std::cout << "\n----------------------------------\n";
         std::cout << "\n== Almacen de Videojuegos ==\n";
         std::cout << "\tc. Crea y establece tamaño del almacen\n";
         std::cout << "\ta. Agregar videojuego\n";
@@ -33,7 +34,8 @@ void menu(){
         std::cout << "\ts. Salir\n";
         std::cout << "Enter your selection: ";
         std::cin >> res;
-        
+        system("clear");
+        std::cout << "\n----------------------------------\n";
         switch (res)
         {
             case 'c':
@@ -58,6 +60,7 @@ void menu(){
                 std::cin >> rating;
                 std::cout << "\tCosto: ";
                 std::cin >> costo;
+                std::cout << "\n----------------------------------\n";
                 alma->agregaVideojuego(tipo, nombre, numero, rating, costo, subtipo);
                 break;
             case 'e':
