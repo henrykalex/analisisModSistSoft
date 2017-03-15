@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ObservePatern/ObservePatern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MemoryLeaks/MemoryLeaks.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:IteratorPattern/IteratorPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PruebasInerencia/PruebasInerencia.xcodeproj">
    </FileRef>
    <Group
@@ -14,6 +23,9 @@
    <Group
       location = "container:"
       name = "Entregas">
+      <FileRef
+         location = "group:TareaObserverPattern/TareaObserverPattern.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:Evaluacion1Corr/Evaluacion1Corr.xcodeproj">
       </FileRef>

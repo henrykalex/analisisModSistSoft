@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD70A89D1E5DE14C00EA1812 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A89C1E5DE14C00EA1812 /* main.cpp */; };
+		CD70A8AB1E5DE16000EA1812 /* addTemporal2Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A31E5DE16000EA1812 /* addTemporal2Vector.cpp */; };
+		CD70A8AC1E5DE16000EA1812 /* badReturnPointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A41E5DE16000EA1812 /* badReturnPointers.cpp */; };
+		CD70A8AD1E5DE16000EA1812 /* castingObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A51E5DE16000EA1812 /* castingObjects.cpp */; };
+		CD70A8AE1E5DE16000EA1812 /* copyConstructorDoubleFree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A61E5DE16000EA1812 /* copyConstructorDoubleFree.cpp */; };
+		CD70A8AF1E5DE16000EA1812 /* inheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A71E5DE16000EA1812 /* inheritance.cpp */; };
+		CD70A8B01E5DE16000EA1812 /* MatrixOfPointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A81E5DE16000EA1812 /* MatrixOfPointers.cpp */; };
+		CD70A8B11E5DE16000EA1812 /* memoryLeaksExamples.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8A91E5DE16000EA1812 /* memoryLeaksExamples.cpp */; };
+		CD70A8B21E5DE16000EA1812 /* pointerPersistence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD70A8AA1E5DE16000EA1812 /* pointerPersistence.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD70A8971E5DE14C00EA1812 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD70A8991E5DE14C00EA1812 /* MemoryLeaks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MemoryLeaks; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD70A89C1E5DE14C00EA1812 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD70A8A31E5DE16000EA1812 /* addTemporal2Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addTemporal2Vector.cpp; sourceTree = "<group>"; };
+		CD70A8A41E5DE16000EA1812 /* badReturnPointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = badReturnPointers.cpp; sourceTree = "<group>"; };
+		CD70A8A51E5DE16000EA1812 /* castingObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = castingObjects.cpp; sourceTree = "<group>"; };
+		CD70A8A61E5DE16000EA1812 /* copyConstructorDoubleFree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = copyConstructorDoubleFree.cpp; sourceTree = "<group>"; };
+		CD70A8A71E5DE16000EA1812 /* inheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inheritance.cpp; sourceTree = "<group>"; };
+		CD70A8A81E5DE16000EA1812 /* MatrixOfPointers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixOfPointers.cpp; sourceTree = "<group>"; };
+		CD70A8A91E5DE16000EA1812 /* memoryLeaksExamples.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memoryLeaksExamples.cpp; sourceTree = "<group>"; };
+		CD70A8AA1E5DE16000EA1812 /* pointerPersistence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pointerPersistence.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD70A8961E5DE14C00EA1812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD70A8901E5DE14C00EA1812 = {
+			isa = PBXGroup;
+			children = (
+				CD70A89B1E5DE14C00EA1812 /* MemoryLeaks */,
+				CD70A89A1E5DE14C00EA1812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD70A89A1E5DE14C00EA1812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD70A8991E5DE14C00EA1812 /* MemoryLeaks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD70A89B1E5DE14C00EA1812 /* MemoryLeaks */ = {
+			isa = PBXGroup;
+			children = (
+				CD70A89C1E5DE14C00EA1812 /* main.cpp */,
+				CD70A8A31E5DE16000EA1812 /* addTemporal2Vector.cpp */,
+				CD70A8A41E5DE16000EA1812 /* badReturnPointers.cpp */,
+				CD70A8A51E5DE16000EA1812 /* castingObjects.cpp */,
+				CD70A8A61E5DE16000EA1812 /* copyConstructorDoubleFree.cpp */,
+				CD70A8A71E5DE16000EA1812 /* inheritance.cpp */,
+				CD70A8A81E5DE16000EA1812 /* MatrixOfPointers.cpp */,
+				CD70A8A91E5DE16000EA1812 /* memoryLeaksExamples.cpp */,
+				CD70A8AA1E5DE16000EA1812 /* pointerPersistence.cpp */,
+			);
+			path = MemoryLeaks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD70A8981E5DE14C00EA1812 /* MemoryLeaks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD70A8A01E5DE14C00EA1812 /* Build configuration list for PBXNativeTarget "MemoryLeaks" */;
+			buildPhases = (
+				CD70A8951E5DE14C00EA1812 /* Sources */,
+				CD70A8961E5DE14C00EA1812 /* Frameworks */,
+				CD70A8971E5DE14C00EA1812 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryLeaks;
+			productName = MemoryLeaks;
+			productReference = CD70A8991E5DE14C00EA1812 /* MemoryLeaks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD70A8911E5DE14C00EA1812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Henryk;
+				TargetAttributes = {
+					CD70A8981E5DE14C00EA1812 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD70A8941E5DE14C00EA1812 /* Build configuration list for PBXProject "MemoryLeaks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD70A8901E5DE14C00EA1812;
+			productRefGroup = CD70A89A1E5DE14C00EA1812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD70A8981E5DE14C00EA1812 /* MemoryLeaks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD70A8951E5DE14C00EA1812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD70A8B11E5DE16000EA1812 /* memoryLeaksExamples.cpp in Sources */,
+				CD70A8AF1E5DE16000EA1812 /* inheritance.cpp in Sources */,
+				CD70A89D1E5DE14C00EA1812 /* main.cpp in Sources */,
+				CD70A8B21E5DE16000EA1812 /* pointerPersistence.cpp in Sources */,
+				CD70A8AC1E5DE16000EA1812 /* badReturnPointers.cpp in Sources */,
+				CD70A8AD1E5DE16000EA1812 /* castingObjects.cpp in Sources */,
+				CD70A8AE1E5DE16000EA1812 /* copyConstructorDoubleFree.cpp in Sources */,
+				CD70A8AB1E5DE16000EA1812 /* addTemporal2Vector.cpp in Sources */,
+				CD70A8B01E5DE16000EA1812 /* MatrixOfPointers.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD70A89E1E5DE14C00EA1812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD70A89F1E5DE14C00EA1812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD70A8A11E5DE14C00EA1812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD70A8A21E5DE14C00EA1812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD70A8941E5DE14C00EA1812 /* Build configuration list for PBXProject "MemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD70A89E1E5DE14C00EA1812 /* Debug */,
+				CD70A89F1E5DE14C00EA1812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD70A8A01E5DE14C00EA1812 /* Build configuration list for PBXNativeTarget "MemoryLeaks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD70A8A11E5DE14C00EA1812 /* Debug */,
+				CD70A8A21E5DE14C00EA1812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD70A8911E5DE14C00EA1812 /* Project object */;
+}
