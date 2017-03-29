@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "Visitor.hpp"
 
-class AddVisitor : public Visitor{
+class AddVisitor : public Visitor<AddVisitor>{
 public:
     void visit(Integer*){
         Integer::countInts++;

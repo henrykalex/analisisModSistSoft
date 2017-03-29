@@ -10,14 +10,17 @@
 #define PresentVisitor_hpp
 
 #include <stdio.h>
-class PresentVisitor : public Visitor{
+#include "Visitor.hpp"
+
+class PresentVisitor : public Visitor<PresentVisitor>{
+protected:
     PresentVisitor(){
         instance = this;
     }
     static PresentVisitor* instance;
 public:
     static PresentVisitor* getInstance(){
-        if(instance == 0){
+        if(!instance){
             return new PresentVisitor;
         }
         else
@@ -30,6 +33,7 @@ public:
         std::cout << d->getQuienSoy();
     }
 };
+
 PresentVisitor* PresentVisitor::instance = 0;
 
 #endif /* PresentVisitor_hpp */

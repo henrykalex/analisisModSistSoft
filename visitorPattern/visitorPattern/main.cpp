@@ -17,9 +17,10 @@
 
 int main(int argc, const char * argv[]) {
     
-    AddVisitor a;
-    CountVisitor c;
-    PresentVisitor* p = PresentVisitor::getInstance();
+    //AddVisitor * a;
+    //CountVisitor * c;
+    //PresentVisitor* p = PresentVisitor::getInstance();
+    Visitor<AddVisitor> * a;
     
     Number* n[] ={new Integer, new Double};
     
@@ -27,14 +28,14 @@ int main(int argc, const char * argv[]) {
     {
         for (int j = 0; j < 2; j++)
         {
-            n[j]->accept(&a);
+            n[j]->accept(a);
         }
     }
-    n[0]->accept(p);
-    n[0]->accept(&c);
+    //n[0]->accept(p);
+    //n[0]->accept(c);
     std::cout << std::endl;
-    n[1]->accept(p);
-    n[1]->accept(&c);
+    //n[1]->accept(p);
+    //n[1]->accept(c);
     
     std::cout << std::endl;
     return 0;

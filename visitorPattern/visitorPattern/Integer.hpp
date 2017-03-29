@@ -13,12 +13,14 @@
 #include "Number.hpp"
 #include "Visitor.hpp"
 
+
 class Integer : public Number{
 public:
     Integer(){
         quienSoy = "Integer";
     }
     static int countInts;
-    void accept(Visitor*);
+    template<class T>
+    void accept(Visitor<T>*);
 };
 #endif /* Integer_hpp */

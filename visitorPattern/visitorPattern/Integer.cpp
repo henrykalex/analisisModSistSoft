@@ -9,6 +9,7 @@
 #include "Integer.hpp"
 int Integer::countInts = 0;
 
-void Integer::accept(Visitor* v){
+template<class T>
+void Integer::accept(Visitor<T>* v){
     v->visit(this);
 }

@@ -15,7 +15,7 @@
 #include "Double.hpp"
 #include "Visitor.hpp"
 
-class CountVisitor : public Visitor{
+class CountVisitor : public Visitor<CountVisitor>{
 public:
     void visit(Integer* i){
         std::cout << Integer::countInts;

@@ -13,12 +13,13 @@
 #include <string>
 template <class T>
 class Visitor;
+
 class Number{
 protected:
     std::string quienSoy;
 public:
     std::string getQuienSoy(){return quienSoy;}
-    virtual void accept(Visitor<int>*)= 0;
+    template <class T>
+    void accept(Visitor<T>*);
 };
-
 #endif /* Number_hpp */

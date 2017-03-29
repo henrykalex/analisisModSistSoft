@@ -43,7 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				CD69D9F11E2FB3DE00C57F07 /* FactoryMethodProduct */,
-				CD69D9F01E2FB3DE00C57F07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +52,7 @@
 				CD69D9EF1E2FB3DE00C57F07 /* FactoryMethodProduct */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CD69D9F11E2FB3DE00C57F07 /* FactoryMethodProduct */ = {
@@ -60,6 +60,7 @@
 			children = (
 				CD69D9F21E2FB3DE00C57F07 /* main.cpp */,
 				CD69D9FC1E2FB81400C57F07 /* Product.hpp */,
+				CD69D9F01E2FB3DE00C57F07 /* Products */,
 			);
 			path = FactoryMethodProduct;
 			sourceTree = "<group>";
@@ -248,6 +249,7 @@
 				CD69D9F81E2FB3DE00C57F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

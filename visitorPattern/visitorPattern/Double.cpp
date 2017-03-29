@@ -9,7 +9,8 @@
 #include "Double.hpp"
 int Double::countDouble = 0;
 
-void Double::accept(Visitor* v)
+template<class T>
+void Double::accept(Visitor<T>* v)
 {
     v->visit(this);
 }

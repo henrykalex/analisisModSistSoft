@@ -19,22 +19,26 @@ class Double;
 
 template <class T>
 class Visitor{
-    Visitor(){
-        instance = this;
-    }
+protected:
     static T* instance;
-    
-public:
-    Visitor<T> getInstance(){
-        if(instance == 0){
-            return new T;//LLamar a un metodo protected para obtener la instancia
-        }
-        else
-            return instance;
+    Visitor(){
+        instance = 0;
     }
+public:
+    static T* getInstance();
     virtual void visit(Integer*) = 0;
     virtual void visit(Double*) = 0;
-    
 };
+
+//template <class T>
+//T* Visitor<T>::instance = 0;
+
+template <class T>
+T* Visitor<T>::getInstance(){
+    if (!instance){
+        instance = T::getInstance();
+    }
+    return instance;
+}
 
 #endif /* Visitor_hpp */

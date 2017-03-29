@@ -19,7 +19,8 @@ public:
         quienSoy = "Double";
     }
     static int countDouble;
-    void accept(Visitor *);
+    template<class T>
+    void accept(Visitor<T> *);
 };
 
 #endif /* Double_hpp */
