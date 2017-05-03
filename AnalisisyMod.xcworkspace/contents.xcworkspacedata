@@ -30,6 +30,9 @@
       location = "container:"
       name = "Entregas">
       <FileRef
+         location = "group:Entregas/EvaluacionFinal/EvaluacionFinal.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Entregas/FinalProject/FinalProject.xcodeproj">
       </FileRef>
       <FileRef
